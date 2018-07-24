@@ -15,6 +15,7 @@
   align-items: center;
   margin: 10px 40px;
   width: 50%
+  border: 1px black solid;
 }
 .title {
   color: MediumAquamarine;
@@ -30,3 +31,29 @@
   color: black;
   margin: 15px;
 }
+
+/*Main Content Container*/
+
+.layout {
+  display: flex;
+}
+.column.large {
+  width: 630px;
+}
+.column.medium {
+  width: 300px;
+}
+.column.small {
+  width: 240;
+}
+.layout,
+.large,
+.medium,
+.small,
+.htext,
+.hpic {
+  border: 1px black solid;
+}
+/*Large Column*/
+/*Meduim Column*/
+/*small Column*/
