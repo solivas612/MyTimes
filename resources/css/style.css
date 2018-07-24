@@ -1,13 +1,32 @@
-.header {
+/*header section*/
+
+.header-container {
   display: flex;
+  justify-content: space-around;
+  align-items: center;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
+  border: 1px black solid;
+  width: 100%;
 }
-.header .p {
-  color: MeduimAquamarine;
+.logo {
+  display: flex;
+  align-items: center;
+  margin: 10px 40px;
+  width: 50%
 }
-.header .ul {
-  display: inline-flex;
+.title {
+  color: MediumAquamarine;
+  margin: 15px;
+}
+.navigation {
+  display: flex;
   justify-content: flex-end;
+  margin: 10px 40px;
+  width: 50%
+}
+.tab {
+  color: black;
+  margin: 15px;
 }
