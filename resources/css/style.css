@@ -9,6 +9,9 @@
   font-weight: bold;
   border: 1px black solid;
   width: 100%;
+  position: fixed;
+  z-index: 2;
+  background-color: white;
 }
 .logo {
   display: flex;
@@ -36,6 +39,8 @@
 
 .layout {
   display: flex;
+  position: relative;
+  top: 100px;
 }
 .column.large {
   width: 630px;
@@ -46,14 +51,69 @@
 .column.small {
   width: 240;
 }
-.layout,
+/*.layout,
 .large,
 .medium,
 .small,
 .htext,
 .hpic {
   border: 1px black solid;
+}*/
+.htext {
+  font-family: Georgia;
+  font-size: 14px;
+  color: black;
+}
+.mpic {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+}
+.hpic.earth,
+.hpic.research,
+.hpic.cat {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  width: 48%
+}
+.hpic.cat {
+  width: auto;
 }
 /*Large Column*/
+
+.column.large {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.htext.stacks {
+  width: 48%
+}
+.mpic {
+  background-image: url("../images/main.png");
+}
+.hpic.earth {
+  background-image: url("../images/fall.png");
+}
+.hpic.research {
+  background-image: url("../images/camera.png");
+}
+
 /*Meduim Column*/
+
+/*.column.meduim {
+  display: flex;
+}*/
+
+.hpic.cat {
+  background-image: url("../images/cat.png");
+}
+
 /*small Column*/
+
+/*.column.small {
+  display: flex;
+}*/
