@@ -41,6 +41,7 @@
   display: flex;
   position: relative;
   top: 100px;
+  margin: 0px;
 }
 .column.large {
   width: 630px;
@@ -114,6 +115,26 @@
 
 /*small Column*/
 
-/*.column.small {
-  display: flex;
-}*/
+.column.small {
+  display: flex
+  flex-direction: column;
+  justify-content: center;
+}
+#center {
+  justify-content: center;
+}
+h1.news {
+  font-size: 16px;
+  font-weight: bold;
+  justify-content: center;
+}
+#bites {
+  justify-content: center;
+  border: 1px black solid;
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  padding: 5px;
+  margin: 0px;
+}
