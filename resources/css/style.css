@@ -42,6 +42,7 @@
   position: relative;
   top: 100px;
   margin: 0px;
+  z-index: 1;
 }
 .column.large {
   width: 630px;
@@ -137,4 +138,23 @@ h1.news {
   color: DimGray;
   padding: 5px;
   margin: 0px;
+}
+.footer {
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  z-index: 1;
+  position: relative;
+  top: 100px;
+  width: 100%;
+  display: inline-flex;
+  overflow: wrap;
+
+}
+#times {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
 }
